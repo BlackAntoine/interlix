@@ -1,0 +1,355 @@
+html,
+body {
+  font-size: 18px;
+  background: #e5e5e5;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 5rem;
+  line-height: 6.5rem;
+  color: #fff;
+}
+h2 {
+  font-size: 2.222rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.389rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.222rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.navbar-brand {
+  margin-top: 5px;
+}
+.bg-primary {
+  color: #3f444a !important;
+  background-color: #fff !important;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.storeTitle {
+  padding-top: 120px;
+}
+.Title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.demo {
+  padding: 40px 0;
+}
+.heading-title {
+  margin-bottom: 50px;
+}
+.pricingTable {
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin: 0 -12px;
+  text-align: center;
+  transition: all 0.4s ease-in-out 0s;
+}
+.pricingContent ul {
+  height: 455;
+  width: 630;
+}
+.pricingTable:hover {
+  border: 2px solid red;
+  margin-top: -30px;
+}
+
+.pricingTable .pricingTable-header {
+  padding: 25px 10px;
+}
+
+.pricingTable .heading {
+  display: block;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.pricingTable .pricing-plans {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d0d0d0;
+  color: #000;
+  font-weight: 900;
+}
+
+.pricingTable .price-value {
+  color: #474747;
+  display: block;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 35px;
+  padding: 0 10px;
+}
+
+.pricingTable .price-value span {
+  font-size: 50px;
+}
+
+.pricingTable .subtitle {
+  color: #82919f;
+  display: block;
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.pricingTable .pricingContent ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.pricingTable .pricingContent ul li {
+  padding: 20px 0;
+}
+
+.pricingTable .pricingContent ol {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.pricingTable .pricingContent ol li {
+  padding: 20px;
+}
+
+.price-icons {
+  text-transform: uppercase;
+  margin-left: 60px;
+  float: left;
+}
+
+.price-texte {
+  margin-right: 50px;
+}
+
+.pricingTable .pricingContent ul li:nth-child(odd) {
+  background-color: #fff;
+}
+
+.pricingTable .pricingContent ul li:last-child {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.pricingTable .pricingTable-sign-up {
+  padding: 25px 0;
+}
+
+.pricingTable .btn-block {
+  width: 50%;
+  margin: 0 auto;
+  background: #e46367;
+  border: 1px solid transparent;
+  padding: 10px 5px;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.pricingTable .btn-block:after {
+  content: "\f090";
+  font-family: "FontAwesome";
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.pricingTable:hover .btn-block {
+  background: #fff;
+  color: #e46367;
+  border: 1px solid #e46367;
+}
+
+@media screen and (max-width: 990px) {
+  .pricingTable {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricingTable {
+    margin: 0 0 30px 0;
+  }
+}
+
+.dropdown:hover > #cart-dropdown {
+  display: block;
+}
+
+.btn-primary {
+  background: #d40404;
+}
+
+.form-control {
+  padding: 0.5rem 0px 0.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 2px;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+/*==========================================
+PRE LOADER 
+==========================================*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fefefe;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  overflow: hidden !important;
+}
+.loaded {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(../img/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  background-size: cover;
+  margin: -20px 0 0 -20px;
+}
+
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search-md"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+textarea.md-textarea {
+  background-color: #f0f1f3;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
+  outline: 0;
+  height: 3.1rem;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.3s;
+  padding-left: 0.5rem;
+}
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+  z-index: 2;
+  margin-left: 9px;
+  height: 57px;
+  margin-top: 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+.md-form,
+.md-form .btn {
+  margin-bottom: 0rem;
+}
+.btn-danger {
+  background: #ec4848;
+}
+
+.btn:hover,
+.btn-large:hover {
+  background-color: #ff2323;
+}
+
+.head_title h2 {
+  margin-bottom: 2rem;
+}
+.head_title p {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+/*==========================================================
+ Navigation style
+============================================================*/
+
+.small {
+  background: #ddd !important;
+  height: 60px;
+  line-height: 60px;
+  transition: all 0.6s;
+  color: #555;
+}
+.small .navbar-brand {
+  margin-top: 0.5rem;
+}
+
+.nav ul li.active {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar {
+  padding: 0 1rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3f444a;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ec4848;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link:focus,
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.active:focus,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.open:focus,
+.navbar-light .navbar-nav .nav-link.open:hover,
+.navbar-light .navbar-nav .open > .nav-link,
+.navbar-light .navbar-nav .open > .nav-link:focus,
+.navbar-light .navbar-nav .open > .nav-link:hover {
+  color: #ec4848;
+}
+
+/*==========================================================
+                    Home style
+============================================================*/
+
+.single_home h1 {
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.single_home p {
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
+}

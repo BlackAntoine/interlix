@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Interlix</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300,300italic,700' rel='stylesheet'type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="img/flavicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-desktop">
+
+    <div class='preloader'>
+        <div class='loaded'>&nbsp;</div>
+    </div>
+
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+        <div class="container">
+            <a href="#" data-activates="mobile-menu" class="button-collapse right"><i
+                    class="fa fa-bars black-text"></i></a>
+
+
+            <div class="navbar-desktop">
+
+                <a class="navbar-brand" href="https://www.interlix.fr/"><img src="img/logo.png" alt="" /></a>
+
+                <ul class="nav navbar-nav pull-right hidden-md-down text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.interlix.fr/">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Apropos">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://boutique.interlix.fr">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://support.interlix.fr">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Panier<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Compte">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="#!"><i class="fa fa-search fa-lg"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="navbar-mobile">
+
+                <ul class="side-nav" id="mobile-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.interlix.fr/">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Apropos">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://boutique.interlix.fr">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://support.interlix.fr/">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Panier<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Compte">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!"><i class="fa fa-search fa-lg"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main class="col-xs-12 col-md-10">
+    
+        <!-- Ici le markup du panier -->
+        <table class="table table-stripped">
+            <tbody id="cart-tablebody" class="cart-tablebody"></tbody>
+        </table>
+    
+        <p>Sous-total: <span class="subtotal"></span>€</p>
+        <p>Total: <span id="totalFrance"></span>€</p>
+    </main>
+    </div> <!-- row !-->
+    
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>
